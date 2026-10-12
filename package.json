@@ -1,0 +1,22 @@
+{
+  "name": "frame-thumbnail-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 0.0.0.0",
+    "build": "nuxt build",
+    "preview": "node .output/server/index.mjs",
+    "typecheck": "nuxt typecheck",
+    "postinstall": "nuxt prepare",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "nuxt": "^4.0.0",
+    "@lucide/vue": "^1.55.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vue-tsc": "^3.0.0",
+    "@playwright/test": "^1.56.0"
+  }
+}
